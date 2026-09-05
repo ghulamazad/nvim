@@ -1,0 +1,11 @@
+-- init.lua 
+require("core.options")
+require("core.keymaps")
+require("core.diagnostics")
+require("core.lsp")
+require("lsp.go")
+require("lsp.rust")
+require("lsp.python")
+require("lsp.node")
+require("core.lazy")
+require("core.netrw-replacement")
