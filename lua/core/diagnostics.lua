@@ -1,4 +1,3 @@
--- lua/core/diagnostics.lua
 vim.diagnostic.config({
   virtual_text = {
     prefix = "●",

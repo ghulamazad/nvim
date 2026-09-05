@@ -1,5 +1,3 @@
--- lua/core/options.lua
-
 -- Disable netrw entirely — neo-tree (Stage 9) replaces it completely,
 -- and leaving netrw loaded means its own keymaps/autocmds stick
 -- around and can silently collide with ours (e.g. <C-l> was bound

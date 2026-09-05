@@ -1,4 +1,3 @@
--- ftplugin/java.lua
 local jdtls = require("jdtls")
 
 -- Each project gets its own isolated workspace/index directory, keyed

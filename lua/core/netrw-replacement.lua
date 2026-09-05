@@ -1,4 +1,3 @@
--- lua/core/netrw-replacement.lua
 -- Handles `nvim <directory>` (e.g. `nvim .`) by opening neo-tree
 -- instead of blank/nothing, now that netrw is disabled (Stage 9-adjacent fix).
 vim.api.nvim_create_autocmd("VimEnter", {

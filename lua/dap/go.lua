@@ -1,4 +1,3 @@
--- lua/dap/go.lua
 require("dap").adapters.delve = {
   type = "server",
   port = "${port}",

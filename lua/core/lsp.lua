@@ -1,4 +1,3 @@
--- lua/core/lsp.lua
 local group = vim.api.nvim_create_augroup("UserLspConfig", {})
 
 vim.api.nvim_create_autocmd("LspAttach", {
@@ -27,7 +26,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
       vim.tbl_extend("force", opts, { desc = "Next diagnostic" }))
     keymap("n", "[d", function() vim.diagnostic.jump({ count = -1, float = true }) end,
       vim.tbl_extend("force", opts, { desc = "Prev diagnostic" }))
-keymap("n", "<leader>ld", vim.diagnostic.open_float, vim.tbl_extend("force", opts, { desc = "Line diagnostics" }))
+    keymap("n", "<leader>ld", vim.diagnostic.open_float, vim.tbl_extend("force", opts, { desc = "Line diagnostics" }))
     -- Inlay hints toggle — gopls and rust-analyzer both support these
     -- (parameter names, inferred types shown inline). Off by default
     -- here because it's visually dense; you toggle it on when useful.

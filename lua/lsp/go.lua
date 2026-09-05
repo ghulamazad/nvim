@@ -1,4 +1,3 @@
--- lua/plugins/lsp/go.lua
 vim.lsp.config("gopls", {
   settings = {
     gopls = {

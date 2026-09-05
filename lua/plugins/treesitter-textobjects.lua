@@ -1,4 +1,3 @@
--- lua/plugins/treesitter-textobjects.lua
 return {
   "nvim-treesitter/nvim-treesitter-textobjects",
   branch = "main",

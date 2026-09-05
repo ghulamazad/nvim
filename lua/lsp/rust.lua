@@ -1,4 +1,3 @@
--- lua/plugins/lsp/rust.lua
 vim.lsp.config("rust_analyzer", {
   settings = {
     ["rust-analyzer"] = {

@@ -1,4 +1,3 @@
--- lua/plugins/fugitive.lua
 return {
   "tpope/vim-fugitive",
   cmd = { "Git", "Gvsplit", "Gsplit", "Gedit", "Gdiffsplit", "Gread", "Gwrite", "GBrowse" },

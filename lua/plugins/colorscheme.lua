@@ -1,4 +1,3 @@
--- lua/plugins/colorscheme.lua
 return {
   "rebelot/kanagawa.nvim",
   priority = 1000, -- load before all other plugins (colors must be ready first)

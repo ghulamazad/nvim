@@ -1,4 +1,3 @@
--- lua/dap/rust.lua
 local codelldb_path = require("mason-registry").get_package("codelldb"):get_install_path()
   .. "/extension/adapter/codelldb"
 

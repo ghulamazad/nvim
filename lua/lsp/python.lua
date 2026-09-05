@@ -1,4 +1,3 @@
--- lua/plugins/lsp/python.lua
 vim.lsp.config("pyright", {
   settings = {
     pyright = {

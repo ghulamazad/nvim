@@ -1,4 +1,3 @@
--- lua/plugins/lualine.lua
 return {
   "nvim-lualine/lualine.nvim",
   event = "VeryLazy", -- loads after everything else, statusline isn't needed on the very first frame

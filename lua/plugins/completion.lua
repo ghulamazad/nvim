@@ -1,4 +1,3 @@
--- lua/plugins/completion.lua
 return {
   "saghen/blink.cmp",
   event = "InsertEnter", -- lazy-load: no cost until you actually start typing

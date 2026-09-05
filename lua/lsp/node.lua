@@ -1,4 +1,3 @@
--- lua/plugins/lsp/node.lua
 vim.lsp.config("vtsls", {
   settings = {
     typescript = {
