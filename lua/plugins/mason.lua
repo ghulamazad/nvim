@@ -24,7 +24,7 @@ return {
         "pyright",       -- Python (type checking / IntelliSense)
         "ruff",          -- Python (fast linter, also does some LSP-lite actions)
         "vtsls",         -- TypeScript/JavaScript (Node)
-        "jdtls",
+        "clangd",
       },
       automatic_enable = true, -- calls vim.lsp.enable() for each installed server automatically
     },

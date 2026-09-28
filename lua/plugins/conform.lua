@@ -22,16 +22,13 @@ return {
         lua = { "stylua" },
       },
       format_on_save = function(bufnr)
-        -- Java is skipped here because jdtls already formats via
-        -- <leader>f (Stage 2) — we don't want two formatters touching
-        -- the same Java file and possibly fighting each other.
-        -- Go is skipped because gopls already auto-formats it (Stage 3).
-        if vim.bo[bufnr].filetype == "java" then
-          return nil
-        end
-        return { timeout_ms = 500, lsp_fallback = true }
-      end,
-    },
+      -- Go is skipped because gopls already auto-formats it (Stage 3).
+      if vim.bo[bufnr].filetype == "go" then
+        return nil
+      end
+      return { timeout_ms = 500, lsp_fallback = true }
+    end,
+        },
   },
   {
     -- This second entry just installs the actual formatter programs

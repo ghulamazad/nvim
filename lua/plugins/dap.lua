@@ -27,7 +27,7 @@ return {
     local dapui = require("dapui")
 
     require("mason-nvim-dap").setup({
-      ensure_installed = { "delve", "java-debug-adapter", "java-test", "debugpy", "codelldb" },
+      ensure_installed = { "delve", "debugpy", "codelldb" },      
       automatic_installation = true,
       handlers = {}, -- empty = use each adapter's default handler; we configure adapters ourselves per-language below for full control
     })
